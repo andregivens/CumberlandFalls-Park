@@ -117,7 +117,22 @@
 
       <p>
         <h1>Things to do in the resort!</h1>
-
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
         <div class="clearfix">
           <div class="img-container">
           <img src="boat.jpg" alt="boat" style="width:100%" style="height:200">
