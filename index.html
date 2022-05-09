@@ -67,6 +67,22 @@
       margin: 0 auto;
       text-align: center;
     }
+
+    * {
+        box-sizing: border-box;
+      }
+
+      .img-container {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
   </style>
 </head>
 
@@ -114,7 +130,6 @@
 
     <!-- 💡💡💡 Cesium map: paste embed code below -->
 
-    <body>
 
       <h1>Let's Zoom In!</h1>
 
@@ -122,7 +137,6 @@
 
 
 
-    </body>
     <p>Main Park Area. Download <a href="CFalls22.pdf">Geospatial PDF</a></p>
 
     <p>7351 Highway 90</p>
@@ -136,28 +150,9 @@
     <p>
     <h1>Fun activities to do at the resort!</h1>
 
-    <style>
-      * {
-        box-sizing: border-box;
-      }
 
-      .img-container {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
-      }
 
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-    </style>
-    </head>
-
-    <body>
-
-      <div class="clearfix">
+  <div class="clearfix">
         <div class="img-container">
           <figure>
             <img src="boat.jpg" alt="Boating" style="width:100%" style="height:400">
@@ -181,29 +176,9 @@
         </div>
 
       </div>
-    </body>
 
     <br>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
 
-      .img-container {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
-      }
-
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-    </style>
-    </head>
-
-    <body>
 
       <div class="clearfix">
         <div class="img-container">
@@ -232,11 +207,10 @@
         </p>
 
       </div>
-    </body>
     </br>
 
     </p>
-    <img src="3d-map-layout.jpg" alt="Here is a 3D map of Cumberland Falls Waterfall" width="100%" height="800" />
+    <img src="3d-map-layout.jpg" alt="Here is a 3D map of Cumberland Falls Waterfall" width="100%"  />
     <p>Cumberland Falls Waterfall. Download <a href="3d-map-layout.pdf">Geospatial PDF</a></p>
 
     <p>This map displays the height of the Cumberland Falls Waterfall
